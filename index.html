@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alumnos UABC</title>
+
+    <!-- Bootstrap Scripts-->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon.png" />
+
+    <!-- Font Awesome (SVG)-->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <img class="logo-alumnos" src="images/logo.png" alt="img-logo">
+          <a class="navbar-brand" href="index.html">Alumnos UABC</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Descargas</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="">Consulta calificaciones, tu horario y mas</h1>
+            <button
+              class="download-button btn btn-dark btn-lg"
+              type="button"
+              href="https://apps.apple.com/mx/app/alumnos-uabc/id1493233670"
+            >
+              <span class="fab fa-apple"></span> Descargar
+            </button>
+            <button
+              class="download-button btn btn-outline-light btn-lg"
+              type="button"
+              href="https://play.google.com/store/apps/details?id=mx.edu.uabc.alumnos&hl=es_MX"
+            >
+              <span class="fab fa-google-play"></span>
+              Descargar
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="img-iphone"
+              src="images/iPhone.png"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <span class="icon fas fa-check-circle"></span>
+          <h3 class="feature-title">Facil de usar</h3>
+          <p class="paraf">
+            Muy fácil de usar, podrías usarla con los ojos cerrados.
+          </p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <span class="icon fas fa-bullseye"></span>
+          <h3 class="feature-title">Justo lo que necesitas</h3>
+          <p class="paraf">
+            Consulta tu horario, calificaciones, historial y tu posicion en
+            subasta.
+          </p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <span class="icon fas fa-heart"></span>
+          <h3 class="feature-title">Al alcance de un toque</h3>
+          <p class="paraf">Para cualquier dispositivo móvil.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              "Una excelente aplicación para estar al pendiente de nuestras
+              calificaciones y al día en la subasta."
+            </h2>
+            <img
+              class="testimonial-img"
+              src="images/hernan.jpg"
+              alt="hernan-profile"
+            />
+            <em>Hernán Castro, Facultad de Ingeniería</em>
+          </div>
+          <div class="carousel-item">
+            <h2>
+              "Aplicación muy fácil de usar. El diseño, los colores, me gusta."
+            </h2>
+            <img
+              class="testimonial-img"
+              src="images/ricardo.jpg"
+              alt="ricardo-profile"
+            />
+            <em>Ricardo Quevedo, Facultad de Ciencias Administrativas</em>
+          </div>
+          <div class="carousel-item">
+            <h2>
+              "Se adapta a mis necesidades, el apartado de horario me parece
+              genial. "
+            </h2>
+            <img
+              class="testimonial-img"
+              src="images/alexandro.jpg"
+              alt="pablo-profile"
+            />
+            <em>Alexandro González, Facultad de Derecho</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!--CTA-->
+    <section id="cta">
+      <h3 class="cta-title">
+        No esperes más tiempo, descarga nuestra aplicación. <br />Vive la
+        experiencia cimarrón.
+      </h3>
+      <button class="download-button btn btn-dark btn-lg" type="button">
+        <span class="fab fa-apple"></span> Descargar
+      </button>
+      <button class="download-button btn btn-light btn-lg" type="button">
+        <span class="fab fa-google-play"></span>
+        Descargar
+      </button>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="iconos">
+        <em class="iconic fab fa-facebook-f"></em>
+        <em class="iconic fab fa-twitter"></em>
+        <em class="iconic fab fa-instagram"></em>
+        <em class="iconic fas fa-envelope"></em>
+      </div>
+      <p class="paraf">© Copyright 2020, UABC</p>
+    </footer>
+  </body>
+</html>
