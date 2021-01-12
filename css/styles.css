@@ -118,7 +118,7 @@ body {
 
 @media (max-width: 1053px) {
   #title {
-    text-align: center;
+    text-align: left;
   }
   .img-iphone {
     position: static;
